@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BujurSangkar"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorHeader">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="RUMUS \nBANGUN DATAR"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp">
+
+        <ImageButton
+            android:id="@+id/btnBS"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/btn_bb" />
+        <ImageButton
+            android:id="@+id/btnLK"
+            android:layout_width="194dp"
+            android:layout_toRightOf="@+id/btnBS"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/btn_lk" />
+        <ImageButton
+            android:id="@+id/btnPP"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnBS"
+            app:srcCompat="@drawable/btn_pp" />
+        <ImageButton
+            android:id="@+id/btnST"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLK"
+            android:layout_toRightOf="@+id/btnPP"
+            app:srcCompat="@drawable/btn_st" />
+        <ImageButton
+            android:id="@+id/btnJG"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnPP"
+            app:srcCompat="@drawable/btn_jg" />
+        <ImageButton
+            android:id="@+id/btnAbout"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnST"
+            android:layout_toRightOf="@+id/btnJG"
+            app:srcCompat="@drawable/btnabout" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorHeader">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Copyright by Puti 2019"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
